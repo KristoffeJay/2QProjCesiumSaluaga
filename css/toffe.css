@@ -1,0 +1,240 @@
+/* This part puts the background image of the whole site */
+body {
+    background-image: url("../images/backg.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+iframe {
+	margin-left: 20%;
+	margin-right: 10%;
+}
+figcaption {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-size: 70%;
+	background-color: none;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.intextlink {
+	color: #BA2349;
+	text-decoration: none;
+}
+.intextlink:hover{
+	color: #ED7794;
+}
+.fb {
+	flex-grow: 3;
+	background: url('../images/icon.png') no-repeat -151px -10px;
+	width: 38px;
+	height: 39px;
+	overflow: hidden;
+	border-radius: 50%;
+	z-index: 100;
+}
+.ig {	
+	flex-grow: 3;
+	background: url('../images/icon.png') no-repeat -13px -56px;
+	width: 38px;
+	height: 39px;
+	overflow: hidden;
+	border-radius: 50%;
+	z-index: 100;
+}
+.yt {
+	flex-grow: 3;
+	background: url('../images/icon.png') no-repeat -197px -102px;
+	width: 38px;
+	height: 39px;
+	overflow: hidden;
+	border-radius: 54%;
+	z-index: 100;
+}
+.flex {
+	display: flex;
+	width: 40%;
+}
+.flex2 {
+	display: flex;
+	width: 20%;
+}
+
+
+
+/* logo is for the title and logo pic of the page */
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 14%;	
+}
+/* nav classes are the codes for the navigational bar */
+nav {
+	position: fixed;
+	overflow: hidden;
+	top: 0%;
+	left: 0%;
+	background-color: #33355A;
+	text-decoration: none;
+	width: 100%;
+	z-index: 99;
+}
+nav a{
+	text-align: center;
+	top: 1%;
+	float: left;
+	color: white;
+	font-size: 2;
+	padding: 10px 10px;
+	text-decoration: none;
+	margin: auto;
+}
+#flex1:active {
+	color: blue;
+	background-color: white;
+}
+#flex1:hover {
+	color: black;
+	background-color: white;
+	transform: scale(1.1, 1.25);
+}
+#flex2:active {
+	color: blue;
+	background-color: white;
+}
+#flex2:hover{
+	opacity: 0.7;
+	transform: scale(1.1, 1.1);
+}
+.heroskills:hover {
+	transform: scale(1.1, 1.25);
+}
+
+/* bodytext and bodytext2 are body texts of the site */
+.bodytext {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-size: 106%;
+	background-color: none;
+	text-align: justify;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.bodytext2 {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-size: 106%;
+	background-color: none;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+/* headtext is the header text of the site */
+.headtext {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-weight: bold;
+	font-size: 175%;
+	background-color: none;
+	text-align: left;
+	margin-left: 15%;
+	margin-right: auto;
+}
+/* headtext2 is the smaller version of the headtext for some cases */
+.headtext2 {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-weight: bold;
+	font-size: 140%;
+	background-color: none;
+	text-align: left;
+	margin-left: 13%;
+	margin-right: auto;
+}
+/* headcentered is a body text but is centered */
+.headcentered {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-weight: bold;
+	font-size: 175%;
+	background-color: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* footeruwu is the code for the footer */
+footer {
+	position: auto;
+	color: gray;
+	font: Monaco, monospace;
+	font-size: 80%;
+	background-color: none;
+	text-align: center;
+}
+/* footersource is the style of the footer source link */
+.footersource {
+	background-color: none;
+	color: gray;
+	font: Monaco, monospace;
+	font-size: 106%;
+}
+/* heropic is for the hero pictures in the body, same as sheesh1 */
+.heropic {
+	float: left;
+	width: 20%;
+	height: 25%;
+	padding: 15px 15px 0px 0px;
+	margin-left: 10%;
+}
+/* tablehead is for the table headers */
+.tablehead {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-size: 100%;
+	background-color: none;
+	border-style: solid;
+	border-width: 1px, black;
+	padding: 3px;
+}
+/* tabletext is for the table text */
+.tabletext {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-size: 100%;
+	background-color: none;
+	border-style: solid;
+	border-width: 1px, black;
+	padding: 3px;
+}
+/* tablehead is for the table headers of another table */
+.tablehead2 {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-size: 130%;
+	background-color: none;
+	border-style: solid;
+	border-width: 1px, black;
+	padding: 3px;
+}
+/* tabletext is for the table text of another table */
+.tabletext2 {
+	color: #F7D987;
+	font: Monaco, monospace;
+	font-size: 130%;
+	background-color: none;
+	border-style: solid;
+	border-width: 1px, black;
+	padding: 3px;
+}
+/* heroskills is for the skills photos */
+.heroskills {
+	margin-left: 6%;
+	width: 5%;
+	height: 5%;
+	float: left;
+	padding: 5px;
+}
